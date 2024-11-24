@@ -4,3 +4,12 @@
     margin: 100px;
     border: 2px solid black;
 }
+
+.sup-board {
+    display: grid;
+
+}
+
+.sup-board>* {
+    grid-area: 1/1;
+}

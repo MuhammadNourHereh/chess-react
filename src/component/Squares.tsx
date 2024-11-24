@@ -1,7 +1,6 @@
-import React from 'react'
-import './Square.css'
+import './Squares.css'
 
-const Square = () => {
+const Squares = () => {
 
   const squares = <>
     <div className='square dark' />
@@ -76,4 +75,4 @@ const Square = () => {
   )
 }
 
-export default Square
+export default Squares

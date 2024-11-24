@@ -1,11 +1,17 @@
-import React from 'react'
-import Square from './Square'
+import Squares from './Squares'
 import './Board.css'
+import 'font-awesome/css/font-awesome.min.css';
+import Pieces from './Pieces';
 
 const Board = () => {
   return (
-    <div className='board'>
-      <Square />
+    <div className='sup-board'>
+      <div className='board'>
+        <Squares />
+      </div>
+      <div>
+        <Pieces />
+      </div>
     </div>
   )
 }
