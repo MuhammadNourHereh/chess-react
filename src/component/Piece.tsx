@@ -1,4 +1,3 @@
-import React from 'react'
 import './Piece.css'
 
 const Piece = () => {
