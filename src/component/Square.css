@@ -1,0 +1,10 @@
+.square {
+    width: 50px;            /* Set exact width */
+    height: 50px;           /* Set exact height */
+}
+.dark {
+    background-color: black;
+}
+.light {
+    background-color: white;
+}
