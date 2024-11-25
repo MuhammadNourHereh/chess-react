@@ -1,13 +1,14 @@
 .board {
     display: grid;
-    grid-template: repeat(8, 50px) / repeat(8, 50px);
+    grid-template: repeat(8, var(--square-size)) / repeat(8, var(--square-size));
+    grid-row-end: 8;
+    grid-row-start: 1;
     margin: 100px;
     border: 2px solid black;
 }
 
 .sup-board {
     display: grid;
-
 }
 
 .sup-board>* {

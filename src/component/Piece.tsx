@@ -1,9 +1,15 @@
 import './Piece.css'
+import { getPieceImage } from '../utils/PiecesImagesMapper.ts';
+import '../utils/PiecesImagesMapper'
+interface PieceProps {
+    id: string;
+}
 
-const Piece = () => {
+const Piece: React.FC<PieceProps> = ({ id }) => {
+    const PieceImg = getPieceImage(id)
     return (
-        <div >
-            <img src="/chess-react/assets/chess-rook.svg" alt="Piece" width="40" height="40"/>
+        <div id={id} className='center'>
+            <img src={PieceImg} alt="Piece"/>
         </div>
     )
 }

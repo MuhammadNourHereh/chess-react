@@ -1,3 +1,15 @@
-*{
-    margin: 0;
+:root {
+  --black-color: #40513B;
+  --white-color: #EDF1D6;
+  --square-size: 60px;
+}
+
+* {
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

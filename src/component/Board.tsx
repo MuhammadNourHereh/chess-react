@@ -1,6 +1,5 @@
 import Squares from './Squares'
 import './Board.css'
-import 'font-awesome/css/font-awesome.min.css';
 import Pieces from './Pieces';
 
 const Board = () => {
