@@ -1,3 +1,7 @@
+.pieces {
+    pointer-events: none;
+}
+
 #br1 {
     grid-area: 8/1;
 }

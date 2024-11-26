@@ -8,7 +8,7 @@ const Board = () => {
       <div className='board'>
         <Squares />
       </div>
-      <div>
+      <div className='board pieces'>
         <Pieces />
       </div>
     </div>

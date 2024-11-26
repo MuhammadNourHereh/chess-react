@@ -1,3 +1,14 @@
+.piece {
+    pointer-events: none;
+    /* Prevents the piece from catching drag events */
+}
+
+.piece img {
+    /* Or whatever inner element actually represents the piece */
+    pointer-events: auto;
+    /* Allows the inner piece to be draggable */
+}
+
 img {
     user-select: none;
     width: 80%;
